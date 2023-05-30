@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import './styles/App.css';
 import Navbar from './components/Navbar';
+import Sample from "./components/Sample";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          {/* <Route path="/" element={} /> */}
+          <Route path="/" element={<Sample />} />
         </Routes>
       </Router>      
     </div>
